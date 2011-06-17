@@ -20,6 +20,7 @@ gem 'sqlite3'
 # Bundle the extra gems:
 # gem 'bj'
 # gem 'nokogiri'
+# gem 'rails', '3.0.0'
  gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 
@@ -28,8 +29,8 @@ group :development do
 end
    
 group :test do
-   gem 'rspec', '2.0.1'
-   gem 'webrat', '0.7.1'
+  gem 'rspec', '2.0.1'
+  gem 'webrat', '0.7.0'
 end
 
 # Bundle gems for the local environment. Make sure to
